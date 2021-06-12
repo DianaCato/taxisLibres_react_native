@@ -1,0 +1,12 @@
+{
+  "name": "taxislibres",
+  "displayName": "taxislibres",
+  "expo": {
+    "name": "taxislibres",
+    "slug": "taxislibres",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
