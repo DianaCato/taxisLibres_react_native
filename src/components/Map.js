@@ -16,8 +16,27 @@ const Map = () => {
         longitudeDelta: 0.0922
       }}
     >
+      <MapView.Marker
+      coordinate={{
+        latitude: 4.7105033, 
+        longitude: -74.0764797067065
+      }}
+      title={"Exito"}
+      description={"Cadena de supermercado"}
+      image={"https://upload.wikimedia.org/wikipedia/commons/9/9b/Logo_Exito_colombia.png"}
+      />
+
+     <MapView.Marker
+      coordinate={{
+        latitude:  4.7113889, 
+        longitude: -74.072777777777
+      }}
+      title={"Carulla"}
+      description={"Cadena de supermercado"}
+      />
 
     </MapView>
+
   )
 }
 
