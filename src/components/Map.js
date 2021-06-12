@@ -10,10 +10,10 @@ const Map = () => {
       style={styles.map}
       loadingEnabled={true}
       region={{
-        latitude: 37.78825,
-        longitude: -122.4324,
+        latitude: 6.2257614,
+        longitude: -75.5987337,
         latitudeDelta: 0.015,
-        longitudeDelta: 0.0121
+        longitudeDelta: 0.0922
       }}
     >
 

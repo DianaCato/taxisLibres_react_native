@@ -1,13 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { createAppContainer, createSwitchNavigator } from 'react-navigation'
-import { createBottomTabNavigator } from 'react-navigation-tabs'
+import { createBottomTabNavigator, createMaterialTopTabNavigator } from 'react-navigation-tabs'
 import MapScreen from './src/screens/MapScreen'
 import MapListScreen from './src/screens/MapListScreen'
+import Login from './src/screens/login'
 import { setNavigator } from './src/navigationRef'
 
 const switchNavigator = createSwitchNavigator({
-  mainFlow: createBottomTabNavigator({
+  mainFlow: createMaterialTopTabNavigator({
+    Login:Login,
     MapView: MapScreen,
     MapList: MapListScreen
   })
@@ -24,3 +26,13 @@ export default () => {
     />
   );
 }
+
+// const App = createSwitchNavigator({
+  
+//   Auth: {
+//     screen: switchNavigator,
+//   },
+  
+// });
+
+// export default createAppContainer(App);
