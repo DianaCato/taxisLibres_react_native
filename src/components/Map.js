@@ -23,7 +23,6 @@ const Map = () => {
       }}
       title={"Exito"}
       description={"Cadena de supermercado"}
-      image={"https://upload.wikimedia.org/wikipedia/commons/9/9b/Logo_Exito_colombia.png"}
       />
 
      <MapView.Marker
