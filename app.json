@@ -9,7 +9,7 @@
       "**/*"
     ],
     "android" :{
-      "connfig" : {
+      "config" : {
         "googleMaps": {
           "apiKey" : "AIzaSyAwMCA5a4mFnSSHCGaFythjZqGirBcoro4"
         }

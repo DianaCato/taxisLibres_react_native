@@ -1,0 +1,59 @@
+ {
+    "id": 0,
+    "type": "supermarket",
+    "location": {
+      "lat": 4.7105033, 
+      "lng": -74.0764797067065
+    },
+    "details": {
+      "title": "Exito",
+      "description": "Este es un supermercado",
+      "icon": {
+        "url":"https://upload.wikimedia.org/wikipedia/commons/9/9b/Logo_Exito_colombia.png", 
+        "size": "new google.maps.Size(40, 40)",
+        "origin": "new google.maps.Point(0, 0)",
+        "anchor": "new google.maps.Point(17, 34)",
+        "scaledSize": "new google.maps.Size(25, 25)"
+      } 
+    }
+  },
+
+  {
+    "id": 1,
+    "type": "supermarket",
+    "location": {
+      "lat": 4.7113889, 
+      "lng": -74.072777777777
+    },
+    "details": {
+      "title": "Carulla",
+      "description": "Este es un supermercado",
+      "icon": {
+        "url":"https://seeklogo.com/images/C/carulla-logo-D3E136383A-seeklogo.com.png", 
+        "size": "new google.maps.Size(40, 40)",
+        "origin": "new google.maps.Point(0, 0)",
+        "anchor": "new google.maps.Point(17, 34)",
+        "scaledSize": "new google.maps.Size(25, 25)"
+      } 
+    }
+  },
+
+  {
+    "id": 2,
+    "type": "safePlace",
+    "location": {
+      "lat": 4.7105, 
+      "lng": -74.0578
+    },
+    "details": {
+      "title": "Jumbo",
+      "description": "Este es un supermercado",
+      "icon": {
+        "url":"https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_Jumbo_Cencosud.png", 
+        "size": "new google.maps.Size(40, 40)",
+        "origin": "new google.maps.Point(0, 0)",
+        "anchor": "new google.maps.Point(17, 34)",
+        "scaledSize": "new google.maps.Size(25, 25)"
+      } 
+    }
+  }
