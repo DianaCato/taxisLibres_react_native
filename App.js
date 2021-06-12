@@ -8,7 +8,7 @@ import Login from './src/screens/login'
 import { setNavigator } from './src/navigationRef'
 
 const switchNavigator = createSwitchNavigator({
-  mainFlow: createMaterialTopTabNavigator({
+  mainFlow: createMaterialBottomTabNavigator({
     Login:Login,
     MapView: MapScreen,
     MapList: MapListScreen
