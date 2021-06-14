@@ -15,6 +15,11 @@ Aplicación que permite incrementar los ingresos del taxista por medio de alianz
  
  https://www.figma.com/proto/bknOKxcLiKEe5QEpqBEHRp/hackathon-taxis-libres-team-library?node-id=312%3A2&scaling=scale-down&page-id=0%3A1
  
+ ## Deploy
+ 
+  ![Deploy app](/deploy.gif)
+ 
+ 
  ## Recursos
  
  * React native
